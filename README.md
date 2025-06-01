@@ -97,8 +97,8 @@ Tu peux ajouter des tables si d'autres tables te semblent pertinentes. Le but es
 Réalise les requêtes suivantes et capture leurs résultats :
 
 - Lister les vélos disponibles
-- Lister les locations faites par un client donné
-- Calculer le nombre de locations par vélo
+- Lister les locations faites par un client donné avec identifiant 1
+- Calculer le nombre total de locations
 - Calculer les revenus totaux générés
 - Afficher le revenu total par mois
 
