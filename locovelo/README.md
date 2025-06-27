@@ -1,4 +1,3 @@
-
 # 🚲 LocoVélo – Construis la base de données d’un service de location de vélos
 
 Bienvenue chez **LocoVélo**, une start-up de location de vélos urbains !  
@@ -10,6 +9,7 @@ Manon, sa fondatrice, veut moderniser sa gestion en passant à une vraie base de
 
 > “Salut !  
 > Je gère un service de location de vélos. Je veux pouvoir gérer :
+>
 > - mes clients
 > - mes vélos
 > - les locations effectuées
@@ -28,6 +28,7 @@ Manon, sa fondatrice, veut moderniser sa gestion en passant à une vraie base de
 - Tu dois créer les **entités suivantes**, avec les **champs demandés** :
 
 #### 🎯 Entité `Client`
+
 - Identifiant
 - Prénom
 - Nom
@@ -35,6 +36,7 @@ Manon, sa fondatrice, veut moderniser sa gestion en passant à une vraie base de
 - Date d’inscription
 
 #### 🎯 Entité `Velo`
+
 - Identifiant
 - Marque
 - Type (`ville`, `route`, `électrique`, etc.)
@@ -44,6 +46,7 @@ Manon, sa fondatrice, veut moderniser sa gestion en passant à une vraie base de
 - Disponibilité (oui/non)
 
 #### 🎯 Entité `Location`
+
 - Identifiant
 - Client concerné
 - Vélo concerné
@@ -52,7 +55,8 @@ Manon, sa fondatrice, veut moderniser sa gestion en passant à une vraie base de
 - Montant total
 
 👉 Indique bien les **associations** avec les **multiplicités** (1,N), (0,N), etc.
-Tu peux ajouter des tables si d'autres tables te semblent pertinentes. Le but est de modéliser au plus proche de la réalité. 
+Tu peux ajouter des tables si d'autres tables te semblent pertinentes. Le but est de modéliser au plus proche de la réalité.
+
 - Exporte ton diagramme au format `.png`
 
 📸 Capture d'écran attendue de ton MCD : `captures/mcd.png`
@@ -72,7 +76,6 @@ Tu peux ajouter des tables si d'autres tables te semblent pertinentes. Le but es
 
 📄 Rendu attendu : schema.sql ← Création des tables avec les contraintes
 
-
 ---
 
 ### 3. 🧪 Création d’un jeu de données
@@ -82,13 +85,13 @@ Tu peux ajouter des tables si d'autres tables te semblent pertinentes. Le but es
   - 5 vélos
   - 5 locations
 
-📄 Rendu attendu : 
+📄 Rendu attendu :
+
 - clients.csv ← Création du jeu de données clients
 - velos.csv ← Création du jeu de données vélos
 - locations.csv ← Création du jeu de données locations
 
 📄 Rendu attendu : data.sql ← Insertion du jeu de données
-
 
 ---
 
@@ -105,6 +108,7 @@ Réalise les requêtes suivantes et capture leurs résultats :
 📄 Rendu attendu : requetes.sql ← Les requêtes demandées
 
 📸 Captures attendues des résultats :
+
 - `captures/velos_disponibles.png`
 - `captures/locations_client.png`
 - `captures/nb_location_par_velo.png`
@@ -145,7 +149,5 @@ Ton dépôt Git doit contenir :
 ## ✅ À rendre
 
 Une fois terminé **push ton repo** sur le dépôt Git qui t’a été assigné.
-
-
 
 Bon courage 🚴 et n’oublie pas de soigner la **qualité de ton schéma** !

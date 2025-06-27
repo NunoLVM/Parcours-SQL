@@ -1,0 +1,6 @@
+marque,taille,tarif_horaire,disponibilite,id_typevelo,id_etatvelo
+Btwin,M,5.50,true,1,1
+Trek,L,6.20,true,2,1
+Orbea,S,4.80,false,3,2
+Giant,M,5.90,true,1,2
+Peugeot,L,6.00,true,2,1
