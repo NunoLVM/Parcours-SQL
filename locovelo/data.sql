@@ -1,20 +1,12 @@
-INSERT INTO
-    typevelo (libelle)
-VALUES
-    ('ville'),
+INSERT INTO typevelo (libelle)
+VALUES ('ville'),
     ('route'),
     ('électrique');
-
-INSERT INTO
-    etatvelo (libelle)
-VALUES
-    ('bon'),
+INSERT INTO etatvelo (libelle)
+VALUES ('bon'),
     ('usé');
-
-INSERT INTO
-    client (prenom, nom, email, date_inscription)
-VALUES
-    (
+INSERT INTO client (prenom, nom, email, date_inscription)
+VALUES (
         'Mariana',
         'Mateus',
         'mariana.24@example.com',
@@ -44,9 +36,7 @@ VALUES
         'len.lencastre@example.com',
         '2024-06-07'
     );
-
-INSERT INTO
-    velo (
+INSERT INTO velo (
         marque,
         taille,
         tarif_horaire,
@@ -54,23 +44,19 @@ INSERT INTO
         id_typevelo,
         id_etatvelo
     )
-VALUES
-    ('Btwin', 'M', 5.50, TRUE, 1, 1),
+VALUES ('Btwin', 'M', 5.50, TRUE, 1, 1),
     ('Trek', 'L', 6.20, TRUE, 2, 1),
     ('Orbea', 'S', 4.80, FALSE, 3, 2),
     ('Giant', 'M', 5.50, TRUE, 1, 2),
     ('Peugeot', 'L', 5.90, TRUE, 2, 1);
-
-INSERT INTO
-    location (
+INSERT INTO location (
         date_heure_debut,
         date_heure_fin,
         montant_total,
         id_client,
         id_velo
     )
-VALUES
-    (
+VALUES (
         '2024-06-15 10:00:00',
         '2024-06-15 12:00:00',
         11.00,
